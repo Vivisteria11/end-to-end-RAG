@@ -13,7 +13,7 @@ app = FastAPI()
 class KeywordRequest(BaseModel):
     keyword: str
 
-TOGETHER_AI_API_KEY = "f7e84a106b9f24d0b8fbef3caab09002b9a386821d0d382b38f651bdec075f6c"
+TOGETHER_AI_API_KEY = ""
 TOGETHER_AI_API_URL = "https://api.together.ai/v1/generate"
 
 @app.post("/generate")
